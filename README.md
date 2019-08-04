@@ -1,3 +1,7 @@
+# 一键部署doh 到 heroku  
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+- - -
+
 &nbsp;
 <p align="center">
   <img src="https://cdn.adguard.com/public/Adguard/Common/adguard_home.svg" width="300px" alt="AdGuard Home" />
