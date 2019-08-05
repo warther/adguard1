@@ -26,7 +26,7 @@ VOLUME ["/opt/adguardhome/conf", "/opt/adguardhome/work"]
 
 WORKDIR /opt/adguardhome/work
 
-#USER nobody
+#USER root
 
 ENTRYPOINT ["/opt/adguardhome/AdGuardHome"]
 CMD ["-c", "/opt/adguardhome/conf/AdGuardHome.yaml", "-w", "/opt/adguardhome/work", "--no-check-update"]
